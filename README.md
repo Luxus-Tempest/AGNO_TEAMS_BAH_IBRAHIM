@@ -2,7 +2,10 @@
 
 Ce repository regroupe des scripts Python orchestrant des équipes d’agents IA (basées sur la librairie `agno`) pour deux cas d’usage principaux :
 
-- **Finance/Investissement**: collecte d’actualités, analyse, synthèse et visualisation pour des actions technologiques majeures.
+- **Finance**: collecte d’actualités, analyse, synthèse et visualisation pour des actions technologiques majeures.
+- 
+- **Investissement**: collecte, analyse, synthèse et visualisation pour des actions technologiques majeures.
+
 - **RH/Talent Matching**: parsing de CV (PDF), appariement avec une fiche de poste et génération d’un rapport recruteur.
 
 Les prompts, rôles et paramètres des agents sont centralisés dans `constantes/` afin de faciliter la personnalisation.
@@ -56,12 +59,11 @@ Créez un fichier `.env` à la racine du projet (par exemple `C:\AGNO_LEARNING\.
 
 ```env
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-MODEL_ID=gpt-4o-mini
 ```
 
 Notes:
 
-- Les scripts lisent `OPENAI_API_KEY` et `MODEL_ID` via `python-dotenv`.
+- Les scripts lisent `OPENAI_API_KEY` via `python-dotenv`.
 
 ---
 
